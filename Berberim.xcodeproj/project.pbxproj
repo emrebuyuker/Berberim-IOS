@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38AC75EC22EAE5B900308ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC75EB22EAE5B900308ED1 /* AppDelegate.swift */; };
+		38AC75EE22EAE5B900308ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC75ED22EAE5B900308ED1 /* ViewController.swift */; };
+		38AC75F122EAE5B900308ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AC75EF22EAE5B900308ED1 /* Main.storyboard */; };
+		38AC75F322EAE5BB00308ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AC75F222EAE5BB00308ED1 /* Assets.xcassets */; };
+		38AC75F622EAE5BB00308ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AC75F422EAE5BB00308ED1 /* LaunchScreen.storyboard */; };
+		38AC760122EAE5BB00308ED1 /* BerberimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC760022EAE5BB00308ED1 /* BerberimTests.swift */; };
+		38AC760C22EAE5BB00308ED1 /* BerberimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC760B22EAE5BB00308ED1 /* BerberimUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38AC75FD22EAE5BB00308ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AC75E022EAE5B900308ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38AC75E722EAE5B900308ED1;
+			remoteInfo = Berberim;
+		};
+		38AC760822EAE5BB00308ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AC75E022EAE5B900308ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38AC75E722EAE5B900308ED1;
+			remoteInfo = Berberim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38AC75E822EAE5B900308ED1 /* Berberim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berberim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AC75EB22EAE5B900308ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38AC75ED22EAE5B900308ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38AC75F022EAE5B900308ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38AC75F222EAE5BB00308ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38AC75F522EAE5BB00308ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38AC75F722EAE5BB00308ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AC75FC22EAE5BB00308ED1 /* BerberimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerberimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AC760022EAE5BB00308ED1 /* BerberimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerberimTests.swift; sourceTree = "<group>"; };
+		38AC760222EAE5BB00308ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AC760722EAE5BB00308ED1 /* BerberimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerberimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AC760B22EAE5BB00308ED1 /* BerberimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerberimUITests.swift; sourceTree = "<group>"; };
+		38AC760D22EAE5BB00308ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38AC75E522EAE5B900308ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AC75F922EAE5BB00308ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AC760422EAE5BB00308ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38AC75DF22EAE5B900308ED1 = {
+			isa = PBXGroup;
+			children = (
+				38AC75EA22EAE5B900308ED1 /* Berberim */,
+				38AC75FF22EAE5BB00308ED1 /* BerberimTests */,
+				38AC760A22EAE5BB00308ED1 /* BerberimUITests */,
+				38AC75E922EAE5B900308ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38AC75E922EAE5B900308ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38AC75E822EAE5B900308ED1 /* Berberim.app */,
+				38AC75FC22EAE5BB00308ED1 /* BerberimTests.xctest */,
+				38AC760722EAE5BB00308ED1 /* BerberimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38AC75EA22EAE5B900308ED1 /* Berberim */ = {
+			isa = PBXGroup;
+			children = (
+				38AC761C22F01B6D00308ED1 /* Application */,
+				38AC761E22F01B9900308ED1 /* Home */,
+				38AC761F22F01BF600308ED1 /* Screens */,
+				38AC75F222EAE5BB00308ED1 /* Assets.xcassets */,
+				38AC75F722EAE5BB00308ED1 /* Info.plist */,
+			);
+			path = Berberim;
+			sourceTree = "<group>";
+		};
+		38AC75FF22EAE5BB00308ED1 /* BerberimTests */ = {
+			isa = PBXGroup;
+			children = (
+				38AC760022EAE5BB00308ED1 /* BerberimTests.swift */,
+				38AC760222EAE5BB00308ED1 /* Info.plist */,
+			);
+			path = BerberimTests;
+			sourceTree = "<group>";
+		};
+		38AC760A22EAE5BB00308ED1 /* BerberimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38AC760B22EAE5BB00308ED1 /* BerberimUITests.swift */,
+				38AC760D22EAE5BB00308ED1 /* Info.plist */,
+			);
+			path = BerberimUITests;
+			sourceTree = "<group>";
+		};
+		38AC761C22F01B6D00308ED1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				38AC761D22F01B7800308ED1 /* Delegate */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		38AC761D22F01B7800308ED1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				38AC75EB22EAE5B900308ED1 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		38AC761E22F01B9900308ED1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				38AC75EF22EAE5B900308ED1 /* Main.storyboard */,
+				38AC75ED22EAE5B900308ED1 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		38AC761F22F01BF600308ED1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				38AC762022F01C0400308ED1 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		38AC762022F01C0400308ED1 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38AC75F422EAE5BB00308ED1 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38AC75E722EAE5B900308ED1 /* Berberim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AC761022EAE5BB00308ED1 /* Build configuration list for PBXNativeTarget "Berberim" */;
+			buildPhases = (
+				38AC75E422EAE5B900308ED1 /* Sources */,
+				38AC75E522EAE5B900308ED1 /* Frameworks */,
+				38AC75E622EAE5B900308ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Berberim;
+			productName = Berberim;
+			productReference = 38AC75E822EAE5B900308ED1 /* Berberim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38AC75FB22EAE5BB00308ED1 /* BerberimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AC761322EAE5BB00308ED1 /* Build configuration list for PBXNativeTarget "BerberimTests" */;
+			buildPhases = (
+				38AC75F822EAE5BB00308ED1 /* Sources */,
+				38AC75F922EAE5BB00308ED1 /* Frameworks */,
+				38AC75FA22EAE5BB00308ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38AC75FE22EAE5BB00308ED1 /* PBXTargetDependency */,
+			);
+			name = BerberimTests;
+			productName = BerberimTests;
+			productReference = 38AC75FC22EAE5BB00308ED1 /* BerberimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38AC760622EAE5BB00308ED1 /* BerberimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AC761622EAE5BB00308ED1 /* Build configuration list for PBXNativeTarget "BerberimUITests" */;
+			buildPhases = (
+				38AC760322EAE5BB00308ED1 /* Sources */,
+				38AC760422EAE5BB00308ED1 /* Frameworks */,
+				38AC760522EAE5BB00308ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38AC760922EAE5BB00308ED1 /* PBXTargetDependency */,
+			);
+			name = BerberimUITests;
+			productName = BerberimUITests;
+			productReference = 38AC760722EAE5BB00308ED1 /* BerberimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38AC75E022EAE5B900308ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Emre BÜYÜKER";
+				TargetAttributes = {
+					38AC75E722EAE5B900308ED1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					38AC75FB22EAE5BB00308ED1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 38AC75E722EAE5B900308ED1;
+					};
+					38AC760622EAE5BB00308ED1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 38AC75E722EAE5B900308ED1;
+					};
+				};
+			};
+			buildConfigurationList = 38AC75E322EAE5B900308ED1 /* Build configuration list for PBXProject "Berberim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38AC75DF22EAE5B900308ED1;
+			productRefGroup = 38AC75E922EAE5B900308ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38AC75E722EAE5B900308ED1 /* Berberim */,
+				38AC75FB22EAE5BB00308ED1 /* BerberimTests */,
+				38AC760622EAE5BB00308ED1 /* BerberimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38AC75E622EAE5B900308ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AC75F622EAE5BB00308ED1 /* LaunchScreen.storyboard in Resources */,
+				38AC75F322EAE5BB00308ED1 /* Assets.xcassets in Resources */,
+				38AC75F122EAE5B900308ED1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AC75FA22EAE5BB00308ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AC760522EAE5BB00308ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38AC75E422EAE5B900308ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AC75EE22EAE5B900308ED1 /* ViewController.swift in Sources */,
+				38AC75EC22EAE5B900308ED1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AC75F822EAE5BB00308ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AC760122EAE5BB00308ED1 /* BerberimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AC760322EAE5BB00308ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AC760C22EAE5BB00308ED1 /* BerberimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38AC75FE22EAE5BB00308ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38AC75E722EAE5B900308ED1 /* Berberim */;
+			targetProxy = 38AC75FD22EAE5BB00308ED1 /* PBXContainerItemProxy */;
+		};
+		38AC760922EAE5BB00308ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38AC75E722EAE5B900308ED1 /* Berberim */;
+			targetProxy = 38AC760822EAE5BB00308ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38AC75EF22EAE5B900308ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38AC75F022EAE5B900308ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38AC75F422EAE5BB00308ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38AC75F522EAE5BB00308ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38AC760E22EAE5BB00308ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38AC760F22EAE5BB00308ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38AC761122EAE5BB00308ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Berberim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyukeryazilim.Berberim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38AC761222EAE5BB00308ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Berberim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyukeryazilim.Berberim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38AC761422EAE5BB00308ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9ZTFRX9B5;
+				INFOPLIST_FILE = BerberimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyukeryazilim.BerberimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berberim.app/Berberim";
+			};
+			name = Debug;
+		};
+		38AC761522EAE5BB00308ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9ZTFRX9B5;
+				INFOPLIST_FILE = BerberimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyukeryazilim.BerberimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berberim.app/Berberim";
+			};
+			name = Release;
+		};
+		38AC761722EAE5BB00308ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9ZTFRX9B5;
+				INFOPLIST_FILE = BerberimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyukeryazilim.BerberimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Berberim;
+			};
+			name = Debug;
+		};
+		38AC761822EAE5BB00308ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9ZTFRX9B5;
+				INFOPLIST_FILE = BerberimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyukeryazilim.BerberimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Berberim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38AC75E322EAE5B900308ED1 /* Build configuration list for PBXProject "Berberim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AC760E22EAE5BB00308ED1 /* Debug */,
+				38AC760F22EAE5BB00308ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AC761022EAE5BB00308ED1 /* Build configuration list for PBXNativeTarget "Berberim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AC761122EAE5BB00308ED1 /* Debug */,
+				38AC761222EAE5BB00308ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AC761322EAE5BB00308ED1 /* Build configuration list for PBXNativeTarget "BerberimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AC761422EAE5BB00308ED1 /* Debug */,
+				38AC761522EAE5BB00308ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AC761622EAE5BB00308ED1 /* Build configuration list for PBXNativeTarget "BerberimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AC761722EAE5BB00308ED1 /* Debug */,
+				38AC761822EAE5BB00308ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38AC75E022EAE5B900308ED1 /* Project object */;
+}
